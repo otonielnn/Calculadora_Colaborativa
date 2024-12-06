@@ -1,0 +1,6 @@
+{
+  "python.testing.pytestArgs": ["Calculadora_Colaborativa"],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.analysis.extraPaths": ["./Calculadora_Colaborativa/operacoes"]
+}
