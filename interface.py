@@ -1,4 +1,5 @@
 from tkinter import Tk, ttk, Entry, Button
+from ttkbootstrap import Style
 
 def criar_interface(subtracao, divisao, multiplicacao, soma):
 
@@ -23,7 +24,8 @@ def criar_interface(subtracao, divisao, multiplicacao, soma):
         except Exception as e:
             resultado_label.config(text=f'Erro: {e}')
 
-    janela = Tk()
+    estilo = Style(theme='superhero')
+    janela = estilo.master
     janela.title('Calculadora')
 
     frame_global = ttk.Frame()
